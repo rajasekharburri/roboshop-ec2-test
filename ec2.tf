@@ -4,7 +4,7 @@ module "catalogue" {
     # sg_ids = ["sg-02baf6b4ad5d16f19"]
     # instance_type = "t3.micro"
     # tags = {
-    #     Name = "modu"
+    #     Name = "module"
     # }
 
     ami_id = var.ami_id
@@ -19,7 +19,7 @@ output "pub_ip" {
 }
 
 output "priv_ip" {
-    value = module.catalogue.private_ip
+    value = module.catalogue.private_ip 
 }
 
 output "id" {

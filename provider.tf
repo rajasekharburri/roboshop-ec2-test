@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "practice-s3-buket-123"
+    bucket = "practice-s3-52525"
     key    = "ec2-module-demo"
     region = "us-east-1"
     use_lockfile = true
